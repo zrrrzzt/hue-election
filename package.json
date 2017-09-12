@@ -1,0 +1,50 @@
+{
+  "name": "hue-election",
+  "description": "Change the color of your Hue lightbulb to the result of the election",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index.js",
+    "setup": "node lib/setup.js",
+    "list": "node lib/list-lights.js"
+  },
+  "keywords": [
+    "Hue",
+    "Philips Hue",
+    "election"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zrrrzzt/hue-election.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/hue-election/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/hue-election",
+  "devDependencies": {
+    "ava": "0.22.0",
+    "coveralls": "2.13.1",
+    "nsp": "2.8.0",
+    "nyc": "11.2.1",
+    "standard": "10.0.3"
+  },
+  "dependencies": {
+    "axios": "0.16.2",
+    "philips-hue": "1.2.0"
+  }
+}

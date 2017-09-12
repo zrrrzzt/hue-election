@@ -1,0 +1,24 @@
+{
+  "bridge": "127.0.0.1",
+  "username": "8d14b5b7-534e-4605-b187-36579e2733d3",
+  "light": 1,
+  "electionServiceUrl": "https://valgresultat.no/api/2017/st",
+  "pollIntervalMinutes": 10,
+  "colors": {
+    "red": {
+      "sat": 254,
+      "bri": 254,
+      "hue": 65535
+    },
+    "white": {
+      "sat": 140,
+      "bri": 254,
+      "hue": 14956
+    },
+    "blue": {
+      "sat": 254,
+      "bri": 254,
+      "hue": 46920
+    }
+  }
+}
