@@ -21,7 +21,8 @@
     "standard-fix": "standard --fix",
     "start": "node index.js",
     "setup": "node lib/setup.js",
-    "list": "node lib/list-lights.js"
+    "list": "node lib/list-lights.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "Hue",
