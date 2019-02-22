@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/hue-election.svg?branch=master)](https://travis-ci.org/zrrrzzt/hue-election)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/hue-election.svg)](https://greenkeeper.io/)
 
 # hue-election
 
@@ -54,6 +53,4 @@ As long as it runs the script will check the results every config.pollIntervalMi
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of hue-election](https://robots.kebabstudios.party/hue-electionl.png "Robohash image of hue-election")
 
