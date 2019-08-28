@@ -1,7 +1,7 @@
 {
   "name": "hue-election",
   "description": "Change the color of your Hue lightbulb to the result of the election",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "license": "MIT",
   "private": true,
   "author": {
