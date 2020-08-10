@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/zrrrzzt/hue-election",
   "devDependencies": {
-    "ava": "3.10.1",
+    "ava": "3.11.1",
     "coveralls": "3.1.0",
     "nyc": "15.1.0",
     "standard": "14.3.4"
